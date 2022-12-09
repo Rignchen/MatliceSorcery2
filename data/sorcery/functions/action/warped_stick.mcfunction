@@ -4,4 +4,5 @@
 #reset the score
 scoreboard players set @s sorcery.warp 0
 
+#is it the wand?
 execute if predicate sorcery:fungus run function sorcery:action/spell

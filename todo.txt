@@ -1,0 +1,5 @@
+get the wand:
+    minecraft:warped_fungus_on_a_stick{sorcery.wand:1s,spell:[]}
+
+make the spells
+make the animations, GOOD animations!
