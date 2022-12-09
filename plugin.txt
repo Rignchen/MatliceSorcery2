@@ -1,0 +1,3 @@
+If you want to create a plugin feel free to do it
+
+spell detection made in #sorcery:spell
