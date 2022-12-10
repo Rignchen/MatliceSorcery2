@@ -1,0 +1,21 @@
+{
+    "values": [
+        "#arrows",
+        "#impact_projectiles",
+        
+        "marker",
+        "armor_stand",
+        "area_effect_cloud",
+
+        "boat",
+        "minecart",
+        "tnt_minecart",
+        "chest_minecart",
+        "hopper_minecart",
+        "furnace_minecart",
+        "spawner_minecart",
+        "command_block_minecart",
+
+        "evoker_fangs"
+    ]
+}
