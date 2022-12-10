@@ -2,7 +2,7 @@
 # execute if the player have enougth mana to launch his spell
 
 #reduce the mana
-scoreboard players operation @s sorcery.mana -= #temp sorcery.mana
+scoreboard players operation @s[gamemode=!creative] sorcery.mana -= #temp sorcery.mana
 
 execute if score #temp sorcery.use matches 1 run function sorcery:action/spell/fireblaze
 execute if score #temp sorcery.use matches 2 run function sorcery:action/spell/seismfang
