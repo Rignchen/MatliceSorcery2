@@ -2,4 +2,4 @@ If you want to create a plugin feel free to do it
 
 spell detection made in #sorcery:spell
 the value you have to append in the tag spell (in the wand) is an int bigger as 8
-then you should test ih the score ".temp sorcery.use" match your value
+then you should test ih the score "#temp sorcery.use" match your value
