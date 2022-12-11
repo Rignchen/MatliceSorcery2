@@ -1,0 +1,12 @@
+{
+    "values": [
+        "#replaceable_plants",
+        "#flowers",
+        "#flower_pots",
+        
+        "air",
+        "cave_air",
+        "void_air",
+        "structure_void"
+    ]
+}
