@@ -16,6 +16,7 @@
         "spawner_minecart",
         "command_block_minecart",
 
-        "evoker_fangs"
+        "evoker_fangs",
+        "shulker_bullet"
     ]
 }
