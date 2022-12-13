@@ -1,6 +1,6 @@
 {
     "values": [
         "sorcery:schedule/4t",
-        "sorcery:schedule/2s"
+        "sorcery:schedule/10s"
     ]
 }
