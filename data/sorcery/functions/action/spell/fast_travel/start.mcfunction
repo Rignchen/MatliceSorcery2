@@ -16,4 +16,7 @@ tp @e[type=armor_stand,tag=sorcery.temp,limit=1] ~ ~ ~ ~ ~
 # put the player in the area effect cloud
 gamemode spectator @s
 spectate @e[type=armor_stand,tag=sorcery.temp,limit=1]
+
+#make it move
+schedule function sorcery:action/spell/fast_travel/schedule 1t
 tag @e[type=armor_stand,tag=sorcery.temp,limit=1] remove sorcery.temp
