@@ -11,7 +11,7 @@ execute if score #temp sorcery.use matches 3 run function sorcery:action/spell/l
 execute if score #temp sorcery.use matches 4 run function sorcery:action/spell/shulker_shot/start
 execute if score #temp sorcery.use matches 5 run function sorcery:action/spell/dragon_shoot
 execute if score #temp sorcery.use matches 6 run function sorcery:action/spell/heal
-execute if score #temp sorcery.use matches 7 run function sorcery:action/spell/fast_travel
+execute if score #temp sorcery.use matches 7 run function sorcery:action/spell/fast_travel/start
 execute if score #temp sorcery.use matches 8 run function sorcery:action/spell/godsword
 
 #plugins?
