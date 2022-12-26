@@ -8,12 +8,12 @@ execute if entity @s[gamemode=adventure] run scoreboard players set @s sorcery.u
 
 # launch the spell
 
-#spawn the area effect cloud
+#spawn the armor_stand
 tag @s add sorcery.travel
-summon armor_stand ~ ~ ~ {Tags:["sorcery.travel","sorcery.temp"],Motion:[0.0,0.0,0.1]}
-tp @e[type=armor_stand,tag=sorcery.temp,limit=1] ~ ~ ~ ~ ~
+summon armor_stand ~ ~2 ~ {Tags:["sorcery.travel","sorcery.temp"],Motion:[0.0,0.0,0.0],Marker:1b,Invisible:1b}
+execute as @e[type=armor_stand,tag=sorcery.temp,limit=1] positioned as @s run tp @s ~ ~ ~ ~ ~
 
-# put the player in the area effect cloud
+# put the player in the armor_stand
 gamemode spectator @s
 spectate @e[type=armor_stand,tag=sorcery.temp,limit=1]
 
