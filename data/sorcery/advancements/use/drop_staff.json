@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"inventory":{
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_sneaking": true
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "sorcery:action/drop/"
+	}
+}
