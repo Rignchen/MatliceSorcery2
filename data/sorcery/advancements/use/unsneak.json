@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"sneak": {
+			"trigger": "tick",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_sneaking": false
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "sorcery:action/unsneak"
+	}
+}

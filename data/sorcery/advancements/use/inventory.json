@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"inventory":{
+			"trigger": "inventory_changed"
+		}
+	},
+	"rewards": {
+		"function": "sorcery:action/drop/"
+	}
+}

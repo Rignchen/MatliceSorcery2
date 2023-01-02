@@ -1,6 +1,8 @@
-# advancement sorcery:use/drop_staff
+# advancement sorcery:use/inventory
 
 #make reusable
-advancement revoke @s only sorcery:use/drop_staff
+advancement revoke @s only sorcery:use/inventory
 
-execute positioned ~ ~1 ~ as @e[type=item,distance=...1,nbt={Item:{id:"minecraft:warped_fungus_on_a_stick",tag:{sorcery:{wand:1b}}}}] run function sorcery:action/drop/drop_wand
+tag @s add sorcery.drop
+execute positioned ~ ~1.15 ~ as @e[type=item,distance=...2,limit=1,sort=nearest] run function sorcery:action/drop/drop
+tag @s remove sorcery.drop

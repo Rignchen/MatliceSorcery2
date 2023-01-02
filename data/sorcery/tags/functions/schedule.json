@@ -1,7 +1,7 @@
 {
-    "values": [
-        "sorcery:schedule/4t",
-        "sorcery:schedule/10s",
-        "sorcery:action/spell/fast_travel/schedule"
-    ]
+	"values": [
+		"sorcery:schedule/4t",
+		"sorcery:schedule/10s",
+		"sorcery:action/spell/fast_travel/schedule"
+	]
 }

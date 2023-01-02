@@ -1,7 +1,7 @@
 {
 	"criteria": {
-		"inventory":{
-			"trigger": "inventory_changed",
+		"sneak": {
+			"trigger": "tick",
 			"conditions": {
 				"player": {
 					"flags": {
@@ -12,6 +12,6 @@
 		}
 	},
 	"rewards": {
-		"function": "sorcery:action/drop/"
+		"function": "sorcery:action/drop/wand/sneak/"
 	}
 }
