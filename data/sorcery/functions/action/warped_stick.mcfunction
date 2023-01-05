@@ -1,5 +1,8 @@
-# function sorcery:schedule/4t
+# advancement sorcery:use/right_click
 # execute when the player use a warped fungus on a stick
+
+#make reusable
+advancement revoke @s only sorcery:use/right_click
 
 #reset the score
 scoreboard players set @s sorcery.warp 0
