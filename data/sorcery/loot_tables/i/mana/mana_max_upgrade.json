@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:prismarine_shard",
+					"name": "minecraft:prismarine_crystals",
 					"functions": [
 						{
 							"function": "minecraft:copy_nbt",

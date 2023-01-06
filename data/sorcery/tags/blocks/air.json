@@ -7,6 +7,11 @@
 		"air",
 		"cave_air",
 		"void_air",
-		"structure_void"
+		"structure_void",
+
+		"tall_seagrass",
+		"kelp_plant",
+		"#underwater_bonemeals",
+		"water"
 	]
 }
