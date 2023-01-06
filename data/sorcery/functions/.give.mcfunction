@@ -11,3 +11,5 @@ loot give @s loot sorcery:i/spell/dragon_shoot
 loot give @s loot sorcery:i/spell/heal
 loot give @s loot sorcery:i/spell/fast_travel
 loot give @s loot sorcery:i/spell/godsword
+loot give @s loot sorcery:i/mana/mana_max_upgrade
+loot give @s loot sorcery:i/mana/mana_timer_upgrade
