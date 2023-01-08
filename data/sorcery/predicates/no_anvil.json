@@ -1,0 +1,11 @@
+{
+    "condition": "inverted",
+	"term": {
+		"condition": "location_check",
+		"predicate": {
+			"block": {
+				"tag": "anvil"
+			}
+		}
+	}
+}

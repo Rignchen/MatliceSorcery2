@@ -1,8 +1,6 @@
 make the coldron
-make the wand:
-	minecraft:warped_fungus_on_a_stick{sorcery.wand:1s,spell:[]}
-make mana update
+make the crafts
 make the spells:
 	godspell
-make the spell rotation
+make the magic aura
 make the animations, GOOD animations!
