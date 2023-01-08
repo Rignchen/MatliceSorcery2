@@ -14,6 +14,7 @@ scoreboard objectives add sorcery.use dummy
 scoreboard objectives add sorcery.warp used:warped_fungus_on_a_stick
 
 #start schedules
+function sorcery:schedule/3t
 function sorcery:schedule/10s
 function sorcery:action/spell/fast_travel/schedule
 
