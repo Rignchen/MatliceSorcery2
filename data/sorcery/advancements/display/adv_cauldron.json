@@ -1,0 +1,26 @@
+{
+	"parent": "sorcery:display/anvil",
+    "display": {
+        "title": {
+            "text": "An advanced magic cauldron ?",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Start an advanced crafting ritual",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

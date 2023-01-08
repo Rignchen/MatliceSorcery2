@@ -1,5 +1,7 @@
 
-execute as @a[predicate=sorcery:wand,predicate=!sorcery:sneak] run title @s actionbar {"score":{"name": "@s","objective": "sorcery.mana"},"color": "aqua","extra": [{"text": "/"},{"score":{"name": "@s","objective": "sorcery.max_mana"}}]}
+execute as @a[predicate=sorcery:wand,predicate=!sorcery:sneak,scores={sorcery.no_title=0}] run title @s actionbar {"text":"Mana","bold":true,"color":"white","extra": [{"text": " : ","bold": false},{"score":{"name": "@s","objective": "sorcery.mana"},"bold":false,"color": "aqua"},{"text": "/","bold":false},{"score":{"name": "@s","objective": "sorcery.max_mana"},"bold":false,"color":"dark_aqua"}]}
 execute as @a[predicate=sorcery:wand,predicate=sorcery:sneak] run function sorcery:action/drop/wand/title
+title @a[predicate=sorcery:wand,predicate=!sorcery:sneak,scores={sorcery.no_title=1..}] actionbar {"translate": "You don't have enougth mana to do this","color": "red"}
+execute as @a[scores={sorcery.no_title=1..}] run scoreboard players remove @s sorcery.no_title 1
 
 schedule function sorcery:schedule/3t 3t

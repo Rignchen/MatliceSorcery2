@@ -1,6 +1,8 @@
 make the coldron
 make the crafts
+enchant the wand
 make the spells:
 	godspell
 make the magic aura
 make the animations, GOOD animations!
+succes

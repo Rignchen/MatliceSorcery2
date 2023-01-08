@@ -1,0 +1,27 @@
+{
+	"parent": "sorcery:display/cauldron",
+    "display": {
+        "title": {
+            "text": "A magic anvil !",
+            "color": "gold"
+        },
+        "description": {
+            "text": "drop your sorcery staff on an anvil",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:anvil",
+            "nbt": "{Unbreakable:1,HideFlags:63,Enchantments:[{id:\"minecraft:flame\",lvl:1}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

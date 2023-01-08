@@ -1,0 +1,27 @@
+{
+    "parent": "sorcery:display/root",
+    "display": {
+        "title": {
+            "text": "A magic cauldron !",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Make your first magic cauldron !",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:cauldron",
+            "nbt": "{Unbreakable:1,HideFlags:63,Enchantments:[{id:\"minecraft:flame\",lvl:1}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

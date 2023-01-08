@@ -1,0 +1,44 @@
+{
+    "parent": "sorcery:display/craft_stick",
+    "display": {
+        "title": {
+            "text": "Staff of sorcery !",
+            "color": "light_purple",
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Enchant your stick by throwing it on an enchantment table",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:stick",
+            "nbt": "{Unbreakable:1,HideFlags:63,Enchantments:[{id:\"minecraft:flame\",lvl:1}]}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "staff": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"warped_fungus_on_a_stick"
+						],
+						"enchantments": [
+							{
+								"levels": 1,
+								"enchantment": "flame"
+							}
+						],
+						"nbt": "{sorcery:{wand:1b}}"
+					}
+				]
+			}
+        }
+    }
+}
