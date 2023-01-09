@@ -8,4 +8,4 @@ advancement revoke @s only sorcery:use/right_click
 scoreboard players set @s sorcery.warp 0
 
 #is it the wand?
-execute if predicate sorcery:fungus run function sorcery:action/spell
+execute if predicate sorcery:wand run function sorcery:action/spell

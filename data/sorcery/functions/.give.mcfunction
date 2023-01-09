@@ -1,7 +1,8 @@
 #give all items to teh player
 
 #wand
-loot give @s loot sorcery:i/magic_wand
+loot give @s[gamemode=creative] loot sorcery:i/magic_wand
+loot give @s[gamemode=!creative] loot sorcery:i/wand
 #spells
 loot give @s loot sorcery:i/spell/fireblaze
 loot give @s loot sorcery:i/spell/seismfang

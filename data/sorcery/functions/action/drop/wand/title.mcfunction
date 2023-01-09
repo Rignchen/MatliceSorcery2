@@ -1,5 +1,7 @@
 
 execute store result score #temp sorcery.use run data get entity @s SelectedItem.tag.spell[0]
+
+execute if score #temp sorcery.use matches 0 run title @s actionbar ""
 execute if score #temp sorcery.use matches 1 run title @s actionbar {"text":"Fireblaze","color":"gold"}
 execute if score #temp sorcery.use matches 2 run title @s actionbar {"text":"Seismfang","color":"gold"}
 execute if score #temp sorcery.use matches 3 run title @s actionbar {"text":"Lightning bolt","color":"aqua"}

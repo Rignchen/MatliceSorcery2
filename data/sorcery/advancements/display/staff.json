@@ -35,7 +35,7 @@
 								"enchantment": "flame"
 							}
 						],
-						"nbt": "{sorcery:{wand:1b}}"
+						"nbt": "{sorcery:{wand:{enchant:1b}}}"
 					}
 				]
 			}
