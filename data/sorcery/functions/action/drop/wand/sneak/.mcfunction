@@ -1,4 +1,4 @@
-# advancement sorcery:use/sneak
+## advancement sorcery:use/sneak
 
 #make reusable
 advancement revoke @s only sorcery:use/unsneak

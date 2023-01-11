@@ -1,5 +1,5 @@
-# function sorcery:action/spell/shulker_shot/entity
-# function sorcery:action/spell/shulker_shot/end
+## function sorcery:action/spell/shulker_shot/entity
+## function sorcery:action/spell/shulker_shot/end
 # spawn the shulker bullets
 
 summon shulker_bullet ^-1 ^ ^1 {Steps:2,Tags:["sorcery.shulker","sorcery.temp"]}

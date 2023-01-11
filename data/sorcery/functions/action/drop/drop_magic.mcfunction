@@ -1,4 +1,4 @@
-# function sorcery:action/drop/
+## function sorcery:action/drop/
 
 execute store result score #temp sorcery.use if entity @p[tag=sorcery.drop,predicate=sorcery:sneak,limit=1]
 

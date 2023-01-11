@@ -1,4 +1,4 @@
-# function sorcery:action/spell/lightning_bolt/start
+## function sorcery:action/spell/lightning_bolt/start
 # make the raycast
 
 scoreboard players remove #temp sorcery.use 1

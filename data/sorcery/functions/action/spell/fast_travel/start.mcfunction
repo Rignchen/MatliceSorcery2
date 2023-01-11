@@ -1,4 +1,4 @@
-# function sorcery:action/spell
+## function sorcery:action/spell
 # execute when the player select the fast_travel's spell
 
 #store the gamemode

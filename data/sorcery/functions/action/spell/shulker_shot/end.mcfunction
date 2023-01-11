@@ -1,4 +1,4 @@
-# function sorcery:action/spell/shulker_shot/ray
+## function sorcery:action/spell/shulker_shot/ray
 # when can't find an entity
 
 scoreboard players set #temp sorcery.use 0

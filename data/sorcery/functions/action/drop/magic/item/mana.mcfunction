@@ -1,4 +1,4 @@
-#function sorcery:action/drop/magic/item/learn
+## function sorcery:action/drop/magic/item/learn
 
 execute store result score #temp sorcery.use run data get entity @s ArmorItems[3].tag.mana
 

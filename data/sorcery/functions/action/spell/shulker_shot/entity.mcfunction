@@ -1,4 +1,4 @@
-# function sorcery:action/spell/shulker_shot/ray
+## function sorcery:action/spell/shulker_shot/ray
 # as the target at me
 
 scoreboard players set #temp sorcery.use 0

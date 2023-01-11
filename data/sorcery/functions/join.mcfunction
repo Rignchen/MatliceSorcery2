@@ -1,3 +1,4 @@
+## advancement sorcery:use/join
 #execute when the player join the world
 
 #initialise personnal scoreboard

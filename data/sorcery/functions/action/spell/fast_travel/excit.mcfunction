@@ -1,4 +1,4 @@
-# function sorcery:action/spell/fast_travel/ray
+## function sorcery:action/spell/fast_travel/ray
 # execute when you leave the armor stand
 
 kill @e[type=armor_stand,tag=sorcery.temp]

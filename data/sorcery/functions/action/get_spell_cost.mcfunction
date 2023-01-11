@@ -1,4 +1,4 @@
-# function sorcery:action/spell
+## function sorcery:action/spell
 # find the cost of the spell
 
 execute if score #temp sorcery.use matches 1 run scoreboard players set #temp sorcery.mana 50

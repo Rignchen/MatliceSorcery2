@@ -1,4 +1,4 @@
-# function sorcery:action/spell
+## function sorcery:action/spell
 # execute when the player select the dragon_shot's spell
 
 # launch the spell

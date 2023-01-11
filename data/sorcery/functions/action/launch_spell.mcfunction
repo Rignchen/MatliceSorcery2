@@ -1,4 +1,4 @@
-# function sorcery:action/spell
+## function sorcery:action/spell
 # execute if the player have enougth mana to launch his spell
 
 #reduce the mana

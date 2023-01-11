@@ -1,4 +1,4 @@
-# function sorcery:action/gain_mana/normal
+## function sorcery:action/gain_mana/normal
 # execute when the player has reach the cooldown
 
 scoreboard players add @s sorcery.mana 1

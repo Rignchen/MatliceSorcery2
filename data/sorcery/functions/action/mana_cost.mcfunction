@@ -1,4 +1,4 @@
-# function sorcery:action/spell
+## function sorcery:action/spell
 # execute when the player want to launch a spell in survival
 
 function sorcery:action/get_spell_cost

@@ -1,4 +1,4 @@
-# function sorcery:schedule/2s
+## function sorcery:schedule/2s
 # every 2 seconds as the markers spawn as target
 # kill the marker if he's no targeted any more
 tag @s add sorcery.temp

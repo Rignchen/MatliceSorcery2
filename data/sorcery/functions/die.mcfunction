@@ -1,3 +1,4 @@
+## advancement sorcery:use/die
 #execute when the player died
 
 #make reusable

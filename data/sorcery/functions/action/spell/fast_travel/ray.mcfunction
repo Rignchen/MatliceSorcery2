@@ -1,4 +1,4 @@
-# function sorcery:schedule/4t
+## function sorcery:schedule/4t
 # make the armor stand move
 
 tp @s ^ ^ ^1

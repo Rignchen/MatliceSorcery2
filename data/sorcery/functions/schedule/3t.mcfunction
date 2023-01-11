@@ -1,3 +1,5 @@
+## function sorcery:load
+## function sorcery:schedule/3t (self)
 
 tag @a[tag=!sorcery.inhand,predicate=sorcery:wand] add sorcery.inhand
 execute as @a[tag=sorcery.inhand,predicate=!sorcery:wand] run function sorcery:wand_not_in_hand

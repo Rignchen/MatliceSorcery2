@@ -1,4 +1,4 @@
-# function sorcery:action/drop/drop_wand/
+## function sorcery:action/drop/drop_wand/
 # change the spells order
 
 data modify storage sorcery:sorcery spell append from storage sorcery:sorcery spell[0]

@@ -1,5 +1,5 @@
-#function sorcery:action/spell/fireblaze
-#function sorcery:action/spell/dragon_shoot
+## function sorcery:action/spell/fireblaze
+## function sorcery:action/spell/dragon_shoot
 
 # give projectile their motion
 

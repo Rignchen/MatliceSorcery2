@@ -1,4 +1,4 @@
-# function sorcery:action/spell/shulker_shot/start
+## function sorcery:action/spell/shulker_shot/start
 # make the raycast
 
 scoreboard players remove #temp sorcery.use 1

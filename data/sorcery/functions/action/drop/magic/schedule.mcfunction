@@ -1,5 +1,5 @@
-# function sorcery:action/drop/magic/
-# function sorcery:action/drop/magic/schedule (this)
+## function sorcery:action/drop/magic/
+## function sorcery:action/drop/magic/schedule (this)
 
 execute as @e[type=item,tag=sorcery.item.magic,predicate=sorcery:on_ground] at @s run function sorcery:action/drop/magic/schedule_end
 

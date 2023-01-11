@@ -1,5 +1,5 @@
-# function sorcery:action/spell/seismfang/start
-# function sorcery:action/spell/seismfang/ray (this)
+## function sorcery:action/spell/seismfang/start
+## function sorcery:action/spell/seismfang/ray (this)
 # spawn the fangs
 
 scoreboard players remove #temp sorcery.use 1

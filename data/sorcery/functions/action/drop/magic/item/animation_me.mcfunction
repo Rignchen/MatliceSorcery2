@@ -1,4 +1,4 @@
-# function sorcery:action/drop/magic/item/animation
+## function sorcery:action/drop/magic/item/animation
 
 execute unless score @s sorcery.use matches 0 run scoreboard players remove @s sorcery.use 1
 

@@ -1,4 +1,4 @@
-# advancement sorcery:use/right_click
+## advancement sorcery:use/right_click
 # execute when the player use a warped fungus on a stick
 
 #make reusable

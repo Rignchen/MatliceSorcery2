@@ -1,4 +1,4 @@
-# advancement sorcery:use/inventory
+## advancement sorcery:use/inventory
 
 #make reusable
 advancement revoke @s only sorcery:use/inventory

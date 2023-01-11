@@ -1,4 +1,4 @@
-# function sorcery:action/drop/magic/schedule_end
+## function sorcery:action/drop/magic/schedule_end
 
 setblock ~ ~ ~ air
 data modify entity @s Item.tag.Enchantments set value [{lvl: 1s, id: "minecraft:flame"}]
