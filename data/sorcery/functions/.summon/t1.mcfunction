@@ -1,0 +1,1 @@
+say summon t1

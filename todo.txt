@@ -1,23 +1,9 @@
-make the coldron
+make the cauldron
+succes
+	advanced cauldron
+book of crafts (cause they are to complex)
+make the magic aura
 make the crafts
-	cauldron:
-		fermanted spider eye
-		golden carrot
-		glistering melong slice
-		gunpowder
-		nautilus shell
-	max mana upgrade:
-		lapis lazuli
-		heart of the sea
-		diamond
-		glass bottle
-		dried kelp block
-	mana cooldown upgrade:
-		turtle egg
-		diamond block
-		emerald block
-		nether star
-		heart of the sea
 	magic wand:
 		stick
 		gunpowder
@@ -26,29 +12,29 @@ make the crafts
 		ghast tear
 		phantom membrane
 	fireblaze:
-		 firework star
+		firework star
 		dead fire coral fan
 		fire charge
 		flint
 		coal
-	shulker shot:
-		lead
-		name tag
-		nether wart
-		purple dye
-		shulker shell
-	lightning bolt:
-		iron bars
-		zombie head
-		redstone block
-		iron trapdoor
-		bell
 	evoker fang:
 		emerald
 		cobblestone
 		diamond ore
 		obsidian
 		iron axe
+	lightning bolt:
+		iron bars
+		zombie head
+		redstone block
+		iron trapdoor
+		bell
+	shulker shot:
+		lead
+		name tag
+		nether wart
+		purple dye
+		shulker shell
 	dragon shot:
 		dragon head
 		dragon breath
@@ -67,11 +53,23 @@ make the crafts
 		ghast tear
 		totem of undying
 		diamond
+	god sword:
+		4 gold block
+		shulker shot
+	max mana upgrade:
+		lapis lazuli
+		heart of the sea
+		diamond
+		glass bottle
+		dried kelp block
+	mana cooldown upgrade:
+		turtle egg
+		diamond block
+		emerald block
+		nether star
+		heart of the sea
+make the animations, GOOD animations!
 make the spells:
 	godspell
-make the magic aura
-make the animations, GOOD animations!
-succes
-	coldron
-book of crafts (cause they are to complex)
 textures
+bosses
