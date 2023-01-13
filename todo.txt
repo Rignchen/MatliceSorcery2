@@ -2,18 +2,6 @@ succes
 	advanced cauldron
 make the magic aura
 make the crafts
-	max mana upgrade:
-		lapis lazuli
-		heart of the sea
-		diamond
-		glass bottle
-		dried kelp block
-	mana cooldown upgrade:
-		turtle egg
-		diamond block
-		emerald block
-		nether star
-		heart of the sea
 	god sword:
 		4 gold block
 		nether star

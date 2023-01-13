@@ -71,22 +71,22 @@ execute if score .give sorcery.settings matches 8 run give @s ender_pearl
 execute if score .give sorcery.settings matches 8 run give @s totem_of_undying
 
 ### max mana upgrade
-execute if score .give sorcery.settings matches 9 run give @s lapis_lazuli
-execute if score .give sorcery.settings matches 9 run give @s heart_of_the_sea
 execute if score .give sorcery.settings matches 9 run give @s diamond
 execute if score .give sorcery.settings matches 9 run give @s glass_bottle
+execute if score .give sorcery.settings matches 9 run give @s lapis_lazuli
+execute if score .give sorcery.settings matches 9 run give @s heart_of_the_sea
 execute if score .give sorcery.settings matches 9 run give @s dried_kelp_block
 
 ### mana cooldown upgrade
 execute if score .give sorcery.settings matches 10 run give @s turtle_egg
+execute if score .give sorcery.settings matches 10 run give @s nether_star
 execute if score .give sorcery.settings matches 10 run give @s diamond_block
 execute if score .give sorcery.settings matches 10 run give @s emerald_block
-execute if score .give sorcery.settings matches 10 run give @s nether_star
 execute if score .give sorcery.settings matches 10 run give @s heart_of_the_sea
 
 ### god sword
-execute if score .give sorcery.settings matches 11 run give @s gold_block 4
 execute if score .give sorcery.settings matches 11 run give @s nether_star
+execute if score .give sorcery.settings matches 11 run give @s gold_block 4
+execute if score .give sorcery.settings matches 11 run loot give @s loot sorcery:i/spell/seismfang
 execute if score .give sorcery.settings matches 11 run loot give @s loot sorcery:i/spell/shulker_shot
 execute if score .give sorcery.settings matches 11 run loot give @s loot sorcery:i/spell/lightning_bolt
-execute if score .give sorcery.settings matches 11 run loot give @s loot sorcery:i/spell/seismfang
