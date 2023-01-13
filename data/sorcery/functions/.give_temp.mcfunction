@@ -4,7 +4,6 @@
 # 0 =cauldron, 1 = wand, 2 = fireblaze, 3 = evoker fang, 4 = lightning bolt, 5 = shulker shot
 # 6 = dragon shot, 7 = heal, 8 = fast travel, 9 = max mana upgrade, 10 = mana cooldown upgrade
 # 11 = god sword
-scoreboard players set .give sorcery.settings 1
 
 ### cauldron
 execute if score .give sorcery.settings matches 0 run give @s fermented_spider_eye

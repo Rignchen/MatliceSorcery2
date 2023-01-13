@@ -9,6 +9,7 @@ execute if score #temp sorcery.use matches 0 if data storage sorcery:sorcery {In
 #plugin
 execute if score #temp sorcery.use matches 0 run function #sorcery:craft
 
+data remove storage sorcery:sorcery Ingredients[{Count:0b}]
 execute if score #temp sorcery.use matches 1 run data modify entity @s ArmorItems[3].tag.Ingredients set from storage sorcery:sorcery Ingredients
 execute if score #temp sorcery.use matches 1 run function sorcery:action/drop/item/craft/animation
 

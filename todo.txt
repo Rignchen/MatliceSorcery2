@@ -1,7 +1,6 @@
 make the cauldron
 succes
 	advanced cauldron
-book of crafts (cause they are to complex)
 make the magic aura
 make the crafts
 	magic wand:
