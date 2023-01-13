@@ -6,11 +6,7 @@
 #comme from one of these functions
 
 advancement grant @p only sorcery:display/cauldron
-say www.create_a_new_cauldron.com
+summon armor_stand ~ ~-1.5 ~ {Tags:["sorcery.cauldron"],Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:purple_stained_glass",Count:1b,tag:{Ingredients:[]}}]}
 kill @s
 
-give @p fermented_spider_eye
-give @p golden_carrot
-give @p glistering_melon_slice
-give @p gunpowder
-give @p nautilus_shell
+# ArmorItems[3].tag.Ingredients

@@ -4,3 +4,5 @@ spell detection made in #sorcery:spell
 the value you have to append in the tag spell (in the wand) is an int bigger as 8
 then you should test ih the score "#temp sorcery.use" match your value
 spell name display for spell rotation in #sorcery:title
+craft something in the cauldron is made in function #sorcery:craft
+you have a list of every item the player have throw in the cauldron in the storage sorcery:sorcery Ingredients

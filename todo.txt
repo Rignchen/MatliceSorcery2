@@ -55,7 +55,10 @@ make the crafts
 		diamond
 	god sword:
 		4 gold block
+		nether star
 		shulker shot
+		lightning bolt
+		seismfang
 	max mana upgrade:
 		lapis lazuli
 		heart of the sea
