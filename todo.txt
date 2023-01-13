@@ -1,63 +1,7 @@
-make the cauldron
 succes
 	advanced cauldron
 make the magic aura
 make the crafts
-	magic wand:
-		stick
-		gunpowder
-		rabbit foot
-		ender pearl
-		ghast tear
-		phantom membrane
-	fireblaze:
-		firework star
-		dead fire coral fan
-		fire charge
-		flint
-		coal
-	evoker fang:
-		emerald
-		cobblestone
-		diamond ore
-		obsidian
-		iron axe
-	lightning bolt:
-		iron bars
-		zombie head
-		redstone block
-		iron trapdoor
-		bell
-	shulker shot:
-		lead
-		name tag
-		nether wart
-		purple dye
-		shulker shell
-	dragon shot:
-		dragon head
-		dragon breath
-		firework star
-		fermanted spider eye
-		ender pearl
-	heal:
-		dragon breath
-		nether wart
-		glistering melon slice
-		sugar
-		enchanted golden apple
-	fast travel:
-		ender chest
-		ender pearl
-		ghast tear
-		totem of undying
-		diamond
-	god sword:
-		4 gold block
-		nether star
-		shulker shot
-		lightning bolt
-		seismfang
 	max mana upgrade:
 		lapis lazuli
 		heart of the sea
@@ -70,6 +14,12 @@ make the crafts
 		emerald block
 		nether star
 		heart of the sea
+	god sword:
+		4 gold block
+		nether star
+		shulker shot
+		lightning bolt
+		seismfang
 make the animations, GOOD animations!
 make the spells:
 	godspell
