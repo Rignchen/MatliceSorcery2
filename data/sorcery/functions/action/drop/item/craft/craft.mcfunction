@@ -1,6 +1,5 @@
 ## function sorcery:action/drop/item/craft/
 
-data modify storage sorcery:sorcery Ingredients set from entity @s ArmorItems[3].tag.Ingredients
 scoreboard players set #temp sorcery.use 0
 
 #plugin
@@ -22,6 +21,6 @@ execute if score #temp sorcery.use matches 0 if data storage sorcery:sorcery {In
 execute if score #temp sorcery.use matches 0 if data storage sorcery:sorcery {Ingredients:[{id:"minecraft:turtle_egg"},{id:"minecraft:nether_star"},{id:"minecraft:diamond_block"},{id:"minecraft:emerald_block"},{id:"minecraft:heart_of_the_sea"}]} run function sorcery:action/drop/item/craft/craft/mana_timer_upgrade
 
 
-data remove storage sorcery:sorcery Ingredients[{Count:0b}]
-execute if score #temp sorcery.use matches 1 run data modify entity @s ArmorItems[3].tag.Ingredients set from storage sorcery:sorcery Ingredients
+execute if score #temp sorcery.use matches 1 run data remove storage sorcery:sorcery Ingredients[{Count:0b}]
+data modify entity @s ArmorItems[3].tag.Ingredients set from storage sorcery:sorcery Ingredients
 execute if score #temp sorcery.use matches 1 run function sorcery:action/drop/item/craft/animation
