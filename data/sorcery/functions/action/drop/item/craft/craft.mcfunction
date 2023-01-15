@@ -20,7 +20,6 @@ execute if score #temp sorcery.use matches 0 if data storage sorcery:sorcery {In
 execute if score #temp sorcery.use matches 0 if data storage sorcery:sorcery {Ingredients:[{id:"minecraft:diamond"},{id:"minecraft:glass_bottle"},{id:"minecraft:lapis_lazuli"},{id:"minecraft:heart_of_the_sea"},{id:"minecraft:dried_kelp_block"}]} run function sorcery:action/drop/item/craft/craft/mana_max_upgrade
 execute if score #temp sorcery.use matches 0 if data storage sorcery:sorcery {Ingredients:[{id:"minecraft:turtle_egg"},{id:"minecraft:nether_star"},{id:"minecraft:diamond_block"},{id:"minecraft:emerald_block"},{id:"minecraft:heart_of_the_sea"}]} run function sorcery:action/drop/item/craft/craft/mana_timer_upgrade
 
-
 execute if score #temp sorcery.use matches 1 run data remove storage sorcery:sorcery Ingredients[{Count:0b}]
 data modify entity @s ArmorItems[3].tag.Ingredients set from storage sorcery:sorcery Ingredients
 execute if score #temp sorcery.use matches 1 run function sorcery:action/drop/item/craft/animation
