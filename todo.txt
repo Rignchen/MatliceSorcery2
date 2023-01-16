@@ -1,5 +1,4 @@
-succes
-	advanced cauldron
+advanced cauldron
 make the magic aura
 make the crafts
 	god sword:
