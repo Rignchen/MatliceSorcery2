@@ -1,5 +1,4 @@
 advanced cauldron
-make the magic aura
 make the crafts
 	god sword:
 		4 gold block
@@ -7,6 +6,7 @@ make the crafts
 		shulker shot
 		lightning bolt
 		seismfang
+make the magic aura
 make the animations, GOOD animations!
 make the spells:
 	godspell
