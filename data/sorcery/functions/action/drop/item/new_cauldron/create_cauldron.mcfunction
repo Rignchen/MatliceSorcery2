@@ -8,5 +8,3 @@
 advancement grant @p only sorcery:display/cauldron
 summon armor_stand ~ ~-1.5 ~ {Tags:["sorcery.cauldron"],Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:purple_stained_glass",Count:1b,tag:{Ingredients:[]}}]}
 kill @s
-
-# ArmorItems[3].tag.Ingredients
