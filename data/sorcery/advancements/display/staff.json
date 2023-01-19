@@ -40,5 +40,8 @@
 				]
 			}
         }
-    }
+    },
+	"rewards": {
+		"function": "sorcery:staff"
+	}
 }

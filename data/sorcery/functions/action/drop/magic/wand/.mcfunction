@@ -6,6 +6,4 @@ data modify entity @e[type=armor_stand,tag=sorcery.temp,limit=1] ArmorItems[3] s
 tag @e[type=armor_stand,tag=sorcery.temp,limit=1] remove sorcery.temp
 execute store result entity @s Item.Count int 0.999999 run data get entity @s Item.Count
 
-summon marker ~ ~ ~ {Tags:["sorcery.item.anim"]}
-
 function sorcery:action/drop/magic/wand/animation

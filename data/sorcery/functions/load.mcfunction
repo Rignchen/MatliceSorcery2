@@ -6,6 +6,7 @@
 #mana
 scoreboard objectives add sorcery.mana dummy
 scoreboard objectives add sorcery.max_mana dummy
+scoreboard objectives add sorcery.mana_aura dummy
 #mana_cooldown
 scoreboard objectives add sorcery.cooldown dummy
 scoreboard objectives add sorcery.max_cooldown dummy
@@ -21,6 +22,9 @@ function sorcery:schedule/10s
 function sorcery:action/spell/fast_travel/schedule
 
 #settings
+
+forceload add 0 0
+summon marker 0 0 0 {UUID:[I;-488088041,2081181094,-1321731278,920293720]}
 
 ## make the items
 #wand
