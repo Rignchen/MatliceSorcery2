@@ -22,4 +22,4 @@ execute if score #temp sorcery.use matches 0 if data storage sorcery:sorcery {In
 
 execute if score #temp sorcery.use matches 1 run data remove storage sorcery:sorcery Ingredients[{Count:0b}]
 data modify entity @s ArmorItems[3].tag.Ingredients set from storage sorcery:sorcery Ingredients
-execute if score #temp sorcery.use matches 1 run function sorcery:action/drop/item/craft/animation
+execute as @e[type=armor_stand,tag=sorcery.cauldron.item] if score #temp sorcery.use matches 1 run function sorcery:action/drop/item/craft/animation/
