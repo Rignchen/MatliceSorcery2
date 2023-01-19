@@ -11,5 +11,5 @@ execute if score @s sorcery.use matches 0 run gamemode survival
 execute if score @s sorcery.use matches 1 run gamemode creative
 execute if score @s sorcery.use matches 2 run gamemode adventure
 
-execute unless score @s sorcery.use matches 1 run effect give @s[predicate=!sorcery:no_air] slow_falling 6 0 true
+effect give @s[predicate=!sorcery:no_air] slow_falling 6 0 true
 tag @s remove sorcery.travel

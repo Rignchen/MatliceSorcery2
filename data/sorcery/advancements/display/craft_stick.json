@@ -28,7 +28,7 @@
 						"items": [
 							"warped_fungus_on_a_stick"
 						],
-						"nbt": "{sorcery:{wand:1b}}"
+						"nbt": "{sorcery:{wand:{}}}"
 					}
 				]
 			}
