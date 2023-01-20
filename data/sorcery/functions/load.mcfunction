@@ -14,6 +14,7 @@ scoreboard objectives add sorcery.max_cooldown dummy
 scoreboard objectives add sorcery.use dummy
 scoreboard objectives add sorcery.no_title dummy
 scoreboard objectives add sorcery.settings dummy
+scoreboard objectives add sorcery.die deathCount
 scoreboard objectives add sorcery.warp used:warped_fungus_on_a_stick
 
 #start schedules
