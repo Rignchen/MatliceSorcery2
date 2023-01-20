@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"boss":{
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "spider",
+					"nbt": "{UUID:[I;827094368,-2003942167,-1345185504,1691839703],Tags:[\"sorcery.boss.t2\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "sorcery:action/boss/kill/t2"
+	}
+}

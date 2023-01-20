@@ -6,5 +6,5 @@
 #comme from one of these functions
 
 advancement grant @p only sorcery:display/cauldron
-summon armor_stand ~ ~-1.5 ~ {Tags:["sorcery.cauldron"],Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:purple_stained_glass",Count:1b,tag:{Ingredients:[]}}]}
+summon armor_stand ~ ~-1.5 ~ {Tags:["sorcery","sorcery.cauldron"],Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:purple_stained_glass",Count:1b,tag:{Ingredients:[]}}]}
 kill @s
