@@ -12,7 +12,7 @@ execute if entity @s[tag=sorcery.boss.t3] if predicate sorcery:random/1_25 run t
 particle block cobweb
 
 #detect entity
-execute if entity @e[type=!#sorcery:noai,type=!spider,type=!player,dx=1,dy=1,dz=1] run scoreboard players set @s sorcery.cooldown 0
+execute if entity @e[type=!#sorcery:noai,tag=!global.ignore,tag=!global.ignore.kill,tag=!sorcery.boss,type=!player,dx=1,dy=1,dz=1] run scoreboard players set @s sorcery.cooldown 0
 execute if entity @e[type=player,gamemode=!spectator,dx=1,dy=1,dz=1] run scoreboard players set @s sorcery.cooldown 0
 
 #launch the functions

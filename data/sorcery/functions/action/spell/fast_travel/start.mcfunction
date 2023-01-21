@@ -10,7 +10,7 @@ execute if entity @s[gamemode=adventure] run scoreboard players set @s sorcery.u
 
 #spawn the armor_stand
 tag @s add sorcery.travel
-summon armor_stand ~ ~2 ~ {Tags:["sorcery","sorcery.travel","sorcery.temp"],Motion:[0.0,0.0,0.0],Marker:1b,Invisible:1b}
+summon armor_stand ~ ~2 ~ {Tags:["sorcery","global.ignore","sorcery.travel","sorcery.temp"],Motion:[0.0,0.0,0.0],Marker:1b,Invisible:1b}
 execute as @e[type=armor_stand,tag=sorcery.temp,limit=1] positioned as @s run tp @s ~ ~ ~ ~ ~
 
 # put the player in the armor_stand

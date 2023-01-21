@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"egg":{
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"spider_spawn_egg"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "sorcery:action/boss/place_egg"
+	}
+}
