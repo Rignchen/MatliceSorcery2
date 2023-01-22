@@ -12,7 +12,7 @@ execute if score #temp sorcery.use matches 4 run function sorcery:action/spell/s
 execute if score #temp sorcery.use matches 5 run function sorcery:action/spell/projectiles/dragon_shoot
 execute if score #temp sorcery.use matches 6 run function sorcery:action/spell/heal
 execute if score #temp sorcery.use matches 7 run function sorcery:action/spell/fast_travel/start
-execute if score #temp sorcery.use matches 8 run function sorcery:action/spell/godsword
+execute if score #temp sorcery.use matches 8 run function sorcery:action/spell/godsword/
 
 #plugins?
 execute unless score #temp sorcery.use matches ..8 run function #sorcery:spell

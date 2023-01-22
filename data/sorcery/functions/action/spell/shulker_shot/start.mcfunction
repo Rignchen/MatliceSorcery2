@@ -1,4 +1,4 @@
-## function sorcery:action/spell
+## function sorcery:action/launch_spell
 # execute when the player select the shulker_shot's spell
 
 # launch the spell

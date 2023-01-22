@@ -1,4 +1,4 @@
-## function sorcery:tick
+## function sorcery:tick/player
 
 scoreboard players set @s sorcery.die 0
 scoreboard players set @s sorcery.mana_aura 0
