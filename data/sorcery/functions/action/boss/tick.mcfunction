@@ -7,7 +7,4 @@ execute if score @s sorcery.cooldown matches 0 if entity @e[type=player,distance
 
 #bossbar
 execute store result bossbar sorcery:spider value run data get entity @s AbsorptionAmount
-tag @a[distance=..40,tag=!sorcery.see.spider,tag=sorcery.inhand] add sorcery.see.spider
-tag @a[distance=..40,tag=!sorcery.see.spider,tag=!global.ignore.gui] add sorcery.see.spider
-bossbar set sorcery:spider players @a[tag=sorcery.see.spider]
-tag @a[tag=sorcery.see.spider,distance=45..] remove sorcery.see.spider
+bossbar set sorcery:spider players @a[distance=..40]
