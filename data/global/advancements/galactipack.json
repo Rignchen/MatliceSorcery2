@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cauldron"
+		},
+		"title": "Matlyce Sorcery",
+		"description": "Wisrd DataPack",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:rignchen",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
