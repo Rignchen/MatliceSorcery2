@@ -1,3 +1,4 @@
+## function sorcery:
 ## function sorcery:action/spell/fast_travel/start
 ## function sorcery:action/spell/fast_travel/schedule (self every tick)
 # make armor stand mooves and test if the player hase left it

@@ -1,4 +1,4 @@
-## function sorcery:load
+## function sorcery:
 ## function sorcery:schedule/3t (self)
 
 execute as @a[tag=!sorcery.inhand,tag=!global.ignore.gui,predicate=sorcery:wand] run function sorcery:wand_in_hand

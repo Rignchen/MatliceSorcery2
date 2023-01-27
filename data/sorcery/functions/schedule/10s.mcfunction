@@ -1,4 +1,4 @@
-## function sorcery:load
+## function sorcery:
 ## function sorcery:schedule/10s (self)
 # execute every 10s
 
