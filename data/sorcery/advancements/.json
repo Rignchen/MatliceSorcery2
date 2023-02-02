@@ -3,5 +3,8 @@
 		"":{
 			"trigger": "impossible"
 		}
+	},
+	"rewards": {
+		"function": "sorcery:"
 	}
 }
