@@ -1,6 +1,6 @@
 ## function sorcery:action/spell/godsword/sword/combo/combo
 
-scoreboard players set @s sorcery.cooldown 30
+scoreboard players set @s sorcery.cooldown 10
 scoreboard players remove @s sorcery.max_cooldown 1
 execute as @e[type=!#sorcery:noai,tag=!global.ignore,tag=!global.ignore.kill,dx=1,dy=1,dz=1] run function sorcery:action/spell/godsword/sword/impact/
 
