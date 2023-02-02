@@ -1,4 +1,4 @@
-## function sorcery:action/spell/godsword/sword/tick
+## function sorcery:tick/marker
 
 execute if score @s sorcery.mana_aura matches 0 run function sorcery:action/spell/godsword/sword/move
 execute if score @s sorcery.mana_aura matches 1 run function sorcery:action/spell/godsword/sword/fly/

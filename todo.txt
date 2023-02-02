@@ -1,6 +1,5 @@
 make the animations, GOOD animations!
 make the spells:
 	godspell
-		fly away
 		combo
 textures
