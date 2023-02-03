@@ -17,5 +17,6 @@ execute if score @s sorcery.use matches 34..44 run tp @s ^ ^-1 ^.4
 execute if score @s sorcery.use matches 23..33 run tp @s ^ ^-1 ^.3
 execute if score @s sorcery.use matches 12..22 run tp @s ^ ^-1 ^.2
 execute if score @s sorcery.use matches 1..11 run tp @s ^ ^-1 ^.1
+particle bubble_column_up ^ ^1 ^-1.5
 
 execute if score @s sorcery.use matches 0 run function sorcery:action/drop/magic/item/learn

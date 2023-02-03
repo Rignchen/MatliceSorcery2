@@ -1,5 +1,2 @@
 make the animations, GOOD animations!
-make the spells:
-	godspell
-		combo
 textures
