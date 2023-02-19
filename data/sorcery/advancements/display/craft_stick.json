@@ -12,7 +12,8 @@
             "italic": true
         },
         "icon": {
-            "item": "minecraft:stick"
+            "item": "minecraft:stick",
+            "nbt": "{CustomModelData:419700}"
         },
         "frame": "task",
         "show_toast": true,
