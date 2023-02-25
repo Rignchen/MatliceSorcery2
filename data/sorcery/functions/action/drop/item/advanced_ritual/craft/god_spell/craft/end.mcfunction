@@ -5,4 +5,5 @@ tag @s remove sorcery.dont_get
 tag @s remove sorcery.advanced_craft
 
 kill @e[tag=sorcery.advanced.gold_block]
+kill @e[tag=sorcery.advanced.gold_ingot]
 kill @e[tag=sorcery.advanced.not_gold]
