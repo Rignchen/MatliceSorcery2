@@ -55,3 +55,4 @@ data modify storage sorcery:items all.mana.timer set value {			Slot:16b,id:"mine
 #define storage sorcery:sorcery
 #define storage sorcery:items
 #define score_holder #temp
+#define entity Onyx_T74
