@@ -1,6 +1,7 @@
 from os import listdir, system
 
 maxi = 0
+total = 0
 bigest = ""
 bad = []
 mt = []
@@ -22,7 +23,7 @@ def surch(extension:list[str],path:str,function = None,exception = None):
 	return out
 
 def max_linie(mcfunction):
-	global maxi, bigest, bad
+	global maxi, bigest, bad, total
 	out = 0
 	a = open(mcfunction,"r")
 	b = a.readlines()
@@ -37,12 +38,14 @@ def max_linie(mcfunction):
 			out += 1
 	if out == 0:
 		mt.append(mcfunction)
-	elif out >= maxi:
-		maxi = out
-		bigest = mcfunction
+	else:
+		total += out
+		if out > maxi:
+			maxi = out
+			bigest = mcfunction
 
 print("advancements:" + str(surch(["json"],"data/sorcery/advancements")) + " (display: " + str(surch(["json"],"data/sorcery/advancements/display")) + ")")
-print("functions:" + str(surch(["mcfunction"],"data/sorcery/functions",max_linie,["data/sorcery/functions/.a.mcfunction"])) + " (bigest: " + str(maxi) + " (" + bigest + "))")
+print("functions:" + str(surch(["mcfunction"],"data/sorcery/functions",max_linie,["data/sorcery/functions/.a.mcfunction"])) + " (bigest: " + str(maxi) + " (" + bigest + "), total commands: " + str(total) + ")")
 print("predicates:" + str(surch(["json"],"data/sorcery/predicates")))
 print("recipes:" + str(surch(["json"],"data/sorcery/recipes")))
 print("items:" + str(surch(["json"],"data/sorcery/loot_tables/i")))
