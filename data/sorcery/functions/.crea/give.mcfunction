@@ -5,7 +5,7 @@
 loot give @s[gamemode=creative] loot sorcery:i/magic_wand
 loot give @s[gamemode=!creative] loot sorcery:i/wand
 #book
-loot give @s loot sorcery:i/spell_book
+loot give @s[nbt=!{Inventory:[{id:"minecraft:written_book",tag:{sorcery:{book:1b}}}]}] loot sorcery:i/spell_book
 #spells
 loot give @s loot sorcery:i/spell/fireblaze
 loot give @s loot sorcery:i/spell/seismfang
