@@ -1,4 +1,5 @@
 ## function sorcery:action/spell
+## function sorcery:action/mana_cost
 # execute if the player have enougth mana to launch his spell
 
 #reduce the mana
@@ -15,4 +16,4 @@ execute if score #temp sorcery.use matches 7 run function sorcery:action/spell/f
 execute if score #temp sorcery.use matches 8 run function sorcery:action/spell/godsword/
 
 #plugins?
-execute unless score #temp sorcery.use matches ..8 run function #sorcery:spell
+execute if score #temp sorcery.use matches 9.. run function #sorcery:spell

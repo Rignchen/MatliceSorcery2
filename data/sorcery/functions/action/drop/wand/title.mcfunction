@@ -12,5 +12,5 @@ execute if score #temp sorcery.use matches 6 run title @s actionbar {"text":"Hea
 execute if score #temp sorcery.use matches 7 run title @s actionbar {"text":"Fast travel","color":"yellow"}
 execute if score #temp sorcery.use matches 8 run title @s actionbar {"text":"Godsword","color":"red"}
 
-execute unless score #temp sorcery.use matches ..8 run function #sorcery:title
+execute if score #temp sorcery.use matches 9.. run function #sorcery:title
 tag @s add sorcery.no_title

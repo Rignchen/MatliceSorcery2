@@ -1,0 +1,28 @@
+wand
+	magic_wand		warped_fungus_on_a_stick:944000
+book
+	book			written_book:944001
+spells
+	fireblaze		firework_star:944002
+	seismfang		brown_dye:944002
+	lightning_bolt	white_dye:944002
+	shulker_shot	shulker_shell:944002
+	dragon_shoot	blue_dye:944002
+	heal			pink_dye:944002
+	fast_travel		gray_dye:944002
+	godsword		red_dye:944002
+mana upgrades
+	max				prismarine_crystals:944003
+	timer			blue_dye:944003
+
+2 blue_dye
+1 brown_dye
+1 firework_star
+1 gray_dye
+1 pink_dye
+1 prismarine_crystals
+1 red_dye
+1 shulker_shell
+1 white_dye
+1 warped_fungus_on_a_stick
+1 written_book

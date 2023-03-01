@@ -7,3 +7,5 @@ execute as @e[type=armor_stand,tag=sorcery.cauldron.advanced.ingredient,distance
 scoreboard players set @s sorcery.cooldown 600
 
 function sorcery:action/drop/item/advanced_ritual/craft/god_spell/craft/tick/
+
+scoreboard players set #temp sorcery.use 1

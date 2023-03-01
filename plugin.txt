@@ -1,8 +1,25 @@
 If you want to create a plugin feel free to do it
 
-spell detection made in #sorcery:spell
-the value you have to append in the tag spell (in the wand) is an int bigger as 8
-then you should test ih the score "#temp sorcery.use" match your value
-spell name display for spell rotation in #sorcery:title
-craft something in the cauldron is made in function #sorcery:craft
-you have a list of every item the player have throw in the cauldron in the storage sorcery:sorcery Ingredients
+how to create a spell?
+	in your spell's data, add a nbt "spell:_" and put an int bigger than 8
+
+	then in #sorcery:spell, test if the score "#temp sorcery.use" match your value then launch the spell
+	in #sorcery:title you can display the spell's name (if the score is the good one)
+
+	if #sorcery:cost you can set #temp sorcery.mana to the amount of mana you want your spell to cost (if the score is the good one)
+how to create a mana upgrade?
+	if it's not an item, you can increast the player's score (sorcery.max_cooldown or sorcery.max_mana) don't forget to run the function sorcery:action/aura/calcul/ to update the aura
+
+	if it's an item,
+		max mana:
+			add sorcery:{mana:{max:1b}} in the item's nbt
+			add mana:x in the item's nbt, x beeing the amount of mana
+		max cooldown:
+			add sorcery:{mana:{timer:1b}} in the item's nbt
+			add mana:x in the item's nbt, x beeing how much you reduce the max cooldown
+how to make a craft?
+	to craft something in the cauldron, use the function #sorcery:craft
+	you should test if the storage sorcery:sorcery Ingredients have all the values you want
+
+I'm not gonna teach you how to use the ultimate crafting table cause I didn't find a way to make it easy
+if you still want to try the function to start the craft is #sorcery:advanced_craft

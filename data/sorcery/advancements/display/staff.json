@@ -13,7 +13,7 @@
         },
         "icon": {
             "item": "minecraft:stick",
-            "nbt": "{CustomModelData:419700,Enchantments:[{id:\"minecraft:flame\",lvl:1}]}"
+            "nbt": "{CustomModelData:944000,Enchantments:[{id:\"minecraft:flame\",lvl:1}]}"
         },
         "frame": "challenge",
         "show_toast": true,

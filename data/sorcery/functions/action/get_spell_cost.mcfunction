@@ -11,4 +11,4 @@ execute if score #temp sorcery.use matches 7 run scoreboard players set #temp so
 execute if score #temp sorcery.use matches 8 run scoreboard players set #temp sorcery.mana 10000
 
 # plugins?
-function #sorcery:cost
+execute if score #temp sorcery.use matches 9.. run function #sorcery:cost
