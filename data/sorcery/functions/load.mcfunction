@@ -6,6 +6,7 @@
 scoreboard objectives add sorcery.mana dummy
 scoreboard objectives add sorcery.max_mana dummy
 scoreboard objectives add sorcery.mana_aura dummy
+scoreboard objectives add sorcery.last_aura dummy
 #mana_cooldown
 scoreboard objectives add sorcery.cooldown dummy
 scoreboard objectives add sorcery.max_cooldown dummy
