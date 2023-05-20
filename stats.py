@@ -53,3 +53,4 @@ print("loot tables:" + str(surch(["json"],"data/sorcery/loot_tables",exception="
 print("plugin:" + str(surch(["json"],"data/sorcery/tags/functions")))
 if bad != []:print("/!\\ " + str(len(bad)) + " fonctions aren't comment: " + str(bad))
 if mt != []:print("/!\\ " + str(len(mt)) + " fonctions are empty: " + str(mt))
+input()
